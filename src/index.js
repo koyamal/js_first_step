@@ -64,3 +64,25 @@
 
 // const func3 = (num1, num2) => num1 + num2;
 // console.log(func3(20, 15));
+
+/**
+ * 分割代入
+ */
+// const myProfile = {
+//   name: "Tom",
+//   age: 28
+// };
+// const msg1 = `名前は${myProfile.name}です。年齢は${myProfile.age}歳です。`;
+// console.log(msg1);
+
+// const { name, age } = myProfile;
+// const msg2 = `名前は${name}です。年齢は${age}歳です。`;
+// console.log(msg2);
+
+// const myProfile = ["Tom", 28];
+// const msg3 = `名前は${myProfile[0]}です。年齢は${myProfile[1]}歳です。`;
+// console.log(msg3);
+
+// const [name, age] = myProfile;
+// const msg4 = `名前は${name}です。年齢は${age}歳です。`;
+// console.log(msg4);
