@@ -31,3 +31,15 @@
 
 // const変数は再宣言不可
 // const val3 = "const変数を再宣言"
+
+/**
+ * テンプレート文字列
+ */
+const name = "Tom";
+const age = 28;
+//「私の名前はTomです。年齢は28歳です。」
+const message1 = "私の名前は" + name + "です。年齢は" + age + "歳です。";
+console.log(message1);
+
+const message2 = `私の名前は${name}です。年齢は${age}歳です。`;
+console.log(message2);
