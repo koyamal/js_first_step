@@ -86,3 +86,10 @@
 // const [name, age] = myProfile;
 // const msg4 = `名前は${name}です。年齢は${age}歳です。`;
 // console.log(msg4);
+
+/**
+ * デフォルト値
+ */
+// const sayHello = (name = "ゲスト") => console.log(`こんにちは!${name}さん`);
+// sayHello();
+// sayHello("Tom");
