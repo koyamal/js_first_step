@@ -199,3 +199,6 @@
 // const num3 = null;
 // const fee3 = num3 && "何か設定されました";
 // console.log(fee3);
+
+// const num4 = null || 5;
+// console.log(num4);
